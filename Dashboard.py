@@ -53,7 +53,7 @@ def run():
         st.info(
                     f"""
                         Import the time series csv file here. Columns must be labeled ds and y. The input to Prophet is always a dataframe with two columns: ds and y. The ds (datestamp) column should be of a format expected by Pandas, ideally YYYY-MM-DD for a date or YYYY-MM-DD HH:MM:SS for a timestamp. The y column must be numeric, and represents the measurement we wish to forecast.
-                        Upload a .csv file first. Sample to try: [peyton_manning_wiki_ts.csv](https://raw.githubusercontent.com/zachrenwick/streamlit_forecasting_app/master/example_data/example_wp_log_peyton_manning.csv)
+                        Upload a .csv file first. Sample to try: [sample_dataset.csv](https://github.com/ariesharry/enibly-forecast-app/blob/master/example_data/example_wp_log_peyton_manning.csv)
                         """
                 )
 
